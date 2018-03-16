@@ -5,19 +5,18 @@ Arduino based robot to autonomously explore and map indoor rooms.
   Explorino (**Explor**e + Ardu**ino**) is an open-source autonomous robot for the exploration, mapping and cleaning of indoor rooms. 
   ![First Prototype Explorino](1.0/img/explorino_1.png "First Prototype Explorino")
   
-  Inspired by commercial robots on the market (eg. Roomba), we want to make a cheap and versatile robot for mapping and cleaning of indoor spaces. 
-  To achieve this goal, we would like to gather Arduino software and hardware enthusiasts!
+  Inspired by commercial robots on the market (eg. Roomba), we want to make a cheap and versatile robot for mapping and cleaning indoor spaces. We welcome all Arduino and robotics enthusiasts willing to help and partecipate!
 
 ### What does Explorino do?
   1. Exploration: Explorino sees its surrounding in-plane area, detect obstacles and free paths. 
   2. Mapping: Explorino memorises the taken path while acquiring the room map, inspired by [Trémaux's](https://en.wikipedia.org/wiki/Maze_solving_algorithm#Tr%C3%A9maux's_algorithm) maze solving algorithm.
   3. Cleaning: Explorino cleans all of the available units on the map.
   
- ### What is Explorino based on?
+ ### What is Explorino made of?
 It is currenlty based on Arduino Uno. To achieve the aforementioned tasks, it uses:
-  1. 4 sonars to detect obstacles, 2 servo-motors to move while counting the type and number of taken steps 
-  2. Arduino Uno
-  3. Microfiber cloth
+  1. Sonars to detect obstacles, 2 servo-motors to move while counting the type and number of taken steps 
+  2. 1 Arduino Uno to control servos and save map into a matrix
+  3. A microfiber cloth for cleaning
   
 Here some gif of Explorino avoiding obstacles and cleaning:  
 ![Explorino avoiding obstacles](1.0/img/avoid_obstacle.gif "Explorino exploring")  ![Explorino cleaning](1.0/img/cleaning.gif "Explorino cleaning")
