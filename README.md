@@ -20,8 +20,7 @@ It is currenlty based on Arduino Uno. To achieve the aforementioned tasks, it us
   3. Microfiber cloth
   
 Here some gif of Explorino avoiding obstacles and cleaning:
-![Explorino avoiding obstacles](1.0/img/avoid_obstacle.gif "Explorino avoiding obstacles")
-![Explorino cleaning](1.0/img/cleaning.gif	"Explorino cleaning")
+![Explorino avoiding obstacles](1.0/img/avoid_obstacle.gif "Explorino avoiding obstacles")![Explorino cleaning](1.0/img/cleaning.gif	"Explorino cleaning")
 
  Detailed list of Explorino 1.0 components in: 1.0/components.md.  
  The current setup has some intrinsic limitations:
