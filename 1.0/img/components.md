@@ -1,77 +1,10 @@
-Arduino UNO 1
-24
-
-
-R/C servo
-motor, cont.
-rotation
-
-
-2
-
-
-22
-
-
-wheels
-
-
-2
-
-
-7
-
-
-sonar
-HC-SR04
-
-
-4
-
-
-10
-
-
-resistances
-
-
-
-
-
-
-capacitances
-
-
-
-
-
-
-temperature
-sensor
-
-
-1
-
-
-
-
-
-wires
-
-
-40 c.a.
-
-
-2
-
-
-K-nex for body
-
-
-some pieces
-
-
-n.a.
-
-
-breadboard
+1 Arduino UNO
+2 R/C servo motor, continous rotation
+2 Wheels
+1 Sonar HC-SR04
+Some resistances
+Some capacitances
+1 temperature sensor
+Some wires
+Some K-nex for body
+2 breadboards
