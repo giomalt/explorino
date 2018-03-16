@@ -3,7 +3,7 @@ Arduino based robot to autonomously explore and map indoor rooms.
 
 ## What is Explorino?
   Explorino (**Explor**e + Ardu**ino**) is an open-source autonomous robot for the exploration, mapping and cleaning of indoor rooms. 
-  ![First Prototype Explorino](1.0/explorino_1.png "First Prototype Explorino")
+  ![First Prototype Explorino](1.0/img/explorino_1.png "First Prototype Explorino")
   
   Inspired by commercial robots on the market (eg. Roomba), we want to make a cheap and versatile robot for mapping and cleaning of indoor spaces. 
   To achieve this goal, we would like to gather Arduino software and hardware enthusiasts!
