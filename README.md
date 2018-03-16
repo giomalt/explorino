@@ -14,22 +14,23 @@ Arduino based robot to autonomously explore and map indoor rooms.
   
  ### What is Explorino made of?
 It is currenlty based on Arduino Uno. To achieve the aforementioned tasks, it uses:
-  1. Sonars to detect obstacles, 2 servo-motors to move while counting the type and number of taken steps 
-  2. 1 Arduino Uno to control servos and save map into a matrix
+  1. Four sonars to detect obstacles, two servo-motors to move while counting the type and number of taken steps 
+  2. One Arduino Uno to control servos and save map into a matrix
   3. A microfiber cloth for cleaning
-  
+
+[Detailed list of Explorino 1.0 components.](1.0/components.md)
+
 Here some gif of Explorino avoiding obstacles and cleaning:  
 ![Explorino avoiding obstacles](1.0/img/avoid_obstacle.gif "Explorino exploring")  ![Explorino cleaning](1.0/img/cleaning.gif "Explorino cleaning")
 
- Detailed list of Explorino 1.0 components in: 1.0/components.md.  
  The current setup has some intrinsic limitations:
  1. Servos rotations and steps get shorter over time as battery runs out
- 2. Arduino internal memory is quite small, there is a compromise on saved map size and accuracy  
+ 2. Arduino internal memory is quite small, there is a compromise between the size and accuracy of the acquired map  
  3. The microfiber cloth is not reausable 
 
  To address these limitations and add new features, we have some ideas for the future.
  
-### What will Explorino feature in the future?
+### Some cool ideas for a future Explorino?
   [ ] 3D printed modular case: compatible with interchangable and additional components, such as:
       - microfiber / fan / wet cleaning systems
       - camera module
@@ -39,20 +40,23 @@ Here some gif of Explorino avoiding obstacles and cleaning:
   [ ] Wireless (Wifi or Bluetooth) comunication system / larger internal memory
   [ ] Website to check the progression of cleaning / keep the room under suerveillance
 
- Current limitations and some ideas for future development in: milestones.md.
+[Current limitations and future feature details.](milestones.md)
 
 ### Would you like to partecipate?
-Today we are looking for other open-source enthusiasts to contribute to the project. 
-In particular, we need:
-* designers for the 3D-printed modular case and cleaning system 
-* coders to improve our deterministic algorithm
+We are looking for other open-source enthusiasts to contribute to this project! 
+In particular, we need to
+* design the 3D-printed modular case and cleaning system 
+* improve our deterministic algorithm to keep into account servo counter limitation
 
-Anyway, we welcome anyone who want to contribute with ideas, algorithm/coding, hardware prototypes, moral support or advertising
+We welcome anyone who want to contribute with ideas, algorithm/coding, hardware prototypes, moral support or advertising
 :smile:
 
-### What is the origin of Explorino?
-Explorino was born in 2016 as a small side-project from two students of Politecnico di Milano, Andrea T. and Giorgio M. 
-Curious about autonomous mapping robot and tired of cleaning their room, they realized the first prototype of Explorino.
+### Where does Explorino come from?
+We made the first prototype back in 2016, as a small side-project of an university course. 
+As we were curious about autonomous mapping robotics and lazy about cleaning our room floor every day, we decided to create Explorino. We then realised that a robot for mapping and cleaning is lacking in the open-source community, so we made this project open-source. 
+We hope to further improve it, by making it modular, thanks to the help of 3D-printing, other than [adding new features](milestones.md).
 
+Thanks for reading,  
+Andrea T. and Giorgio M. 
 
 
