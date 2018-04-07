@@ -18,7 +18,7 @@ It is currenlty based on Arduino Uno. To achieve the aforementioned tasks, it us
   2. One Arduino Uno to control servos and save map into a matrix
   3. A microfiber cloth for cleaning
 
-[Detailed list of Explorino 1.0 components.](1.0/components.md)
+[Detailed list of Explorino 1.0 components.](1.0/components)
 
 Here some gif of Explorino avoiding obstacles and cleaning:  
 ![Explorino avoiding obstacles](1.0/img/avoid_obstacle.gif "Explorino exploring")  ![Explorino cleaning](1.0/img/cleaning.gif "Explorino cleaning")
